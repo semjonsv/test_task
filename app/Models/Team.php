@@ -12,8 +12,6 @@ use Illuminate\Database\Eloquent\Collection;
 
 class Team extends Model
 {
-    use HasFactory;
-
     /**
      * Returns teamable model
      *

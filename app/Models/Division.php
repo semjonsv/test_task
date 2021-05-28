@@ -10,8 +10,6 @@ use Illuminate\Database\Eloquent\Relations\MorphMany;
 
 class Division extends Model
 {
-    use HasFactory;
-
     /**
      * Playoff teams amount from division
      */

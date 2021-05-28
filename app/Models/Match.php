@@ -11,8 +11,6 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 
 class Match extends Model
 {
-    use HasFactory;
-
     /**
      * Division match type
      */

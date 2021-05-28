@@ -20,10 +20,8 @@ class MainController extends Controller
     {
         $divisions = Division::all();
 
-        foreach ($divisions as &$division) {
-            $division->teams = $division->teams;
-
-            foreach($division->teams as &$team) {
+        foreach ($divisions as $division) {
+            foreach($division->teams as $team) {
                 $team->matches = $team->divisionMatches;
             }
         }

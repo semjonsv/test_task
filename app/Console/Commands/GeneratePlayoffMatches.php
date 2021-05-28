@@ -97,7 +97,6 @@ class GeneratePlayoffMatches extends Command
         /**
          * Upper and lower bracket finals
          */
-
         $brackets = [
             Match::TYPE_LOSER_FINALS => $teams->semiFinalLosers(),
             Match::TYPE_FINALS => $teams->semiFinalWinners(),
